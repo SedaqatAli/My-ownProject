@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: vazirNormal;
+    src: url('./fonts/vazir.eot');
+    src: url('./fonts/vazir.eot?#iefix') format('embedded-opentype'),
+     url('./fonts/vazir.woff2') format('woff2'),
+     url('./fonts/vazir.woff') format('woff'),
+     url('./fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body{
+    font-family: vazirNormal;
+    background-color: #202124;
+}
+/* header */
+.container{
+    width: 98%;
+    padding: 1%;
+}
+/* aside */
+
+.sidebar{
+    background-color:#303134;
+    display: inline-block;
+    width: 25%;
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.profile{
+    position: relative;
+}
+.profile img{
+    width: 100%;
+    height: 300px;
+    border-radius: 3px 3px 0 0;
+    
+}
+.profile-name{
+    width: 100%;
+    text-align: center;
+    font-family: vazirNormal;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    font-size: 20px;
+
+}
+/* description styles */
+
+#description{
+    padding: 10px;
+    font-family:vazirNormal ;
+}
+#description ul{
+    list-style: none;
+}
+#description ul li{
+    margin-bottom: 10px;
+}
+#description ul li i.fa{
+    color: #bb86fc;
+    font-size: 16px;
+    
+}
+i.fa{
+    color: #bb86fc;
+}
+
+#description ul li span{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 8px;
+    
+}
+hr{
+    color: #808080;
+    width: 96%;
+    margin: 0 auto;
+    
+}
+/* skill styles */
+
+.aside-item{
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+
+
+.aside-item .progress-box{
+    background-color: #eee;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.aside-item .progress-box .progress-bar{
+    background-color:#bb86fc;
+    border-radius: 15px;
+}
+.pb100{
+    width: 100%;
+}
+.pb90{
+    width: 90%;
+}.pb80{
+    width: 80%;
+}.pb70{
+    width: 70%;
+}
+.pb40{
+    width: 40%;
+}
+
+/* section */
+
+.content{
+    display: inline-block;
+    width: 72%;
+    margin: 0.5%;
+    vertical-align: top;
+
+}
+/* top class */
+
+.content .top{
+    background-color: #303134;
+    height: 250px;
+    color: #fff;
+    margin-bottom: 1%;
+    border-radius: 3px;
+}
+/* bottom class */
+
+.content .bottom{
+    height: 250px;
+    background-color: #303134;
+    color: #fff;
+    margin-bottom: 1%; 
+    border-radius: 3px;
+
+}
+/* footer */
+.footer{
+    background-color: #bb86fc;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px  0;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
